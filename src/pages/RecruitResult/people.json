@@ -1,0 +1,27 @@
+[
+  {
+    "name": "김석진",
+    "studentNumber": "1206",
+    "position": "APP"
+  },
+  {
+    "name": "원설아",
+    "studentNumber": "1312",
+    "position": "APP"
+  },
+  {
+    "name": "이명재",
+    "studentNumber": "1313",
+    "position": "APP"
+  },
+  {
+    "name": "강민제",
+    "studentNumber": "1201",
+    "position": "BACKEND"
+  },
+  {
+    "name": "변은혜",
+    "studentNumber": "1309",
+    "position": "AI"
+  }
+]

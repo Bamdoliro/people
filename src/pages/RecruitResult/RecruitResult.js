@@ -19,9 +19,9 @@ export default function RecruitResult() {
     let pass = checkPass();
 
     return (
-        <section>
+        <section className="recruit-result">
             <img src="./cute-gati.png" alt="logo"/>
-            <div className="recruit-result">
+            <div className="recruit-result--text">
                 <p>{param.get('name')} 님, 밤돌이로 팀에 지원해주셔서 감사합니다.</p>
                 {pass ?
                     <div>

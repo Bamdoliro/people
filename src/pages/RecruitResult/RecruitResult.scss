@@ -1,10 +1,14 @@
-img {
-  width: 70%;
-  margin-top: 70px;
-}
 
 .recruit-result {
-  margin-top: 80px;
-  font-size: 30px;
-  line-height: 45px;
+
+  img {
+    width: 80%;
+    margin-top: 70px;
+  }
+
+  .recruit-result--text {
+    margin-top: 80px;
+    font-size: 30px;
+    line-height: 45px;
+  }
 }

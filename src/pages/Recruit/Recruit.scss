@@ -1,0 +1,72 @@
+@import "../../styles/common";
+
+.recruit {
+
+  .recruit--title {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 80px;
+
+    img {
+      width: 30%;
+    }
+
+    .recruit--title-text {
+      padding-left: 50px;
+      font-size: 50px;
+      font-weight: 600;
+      display: inline-block;
+
+      p {
+        display: inline-block;
+      }
+    }
+  }
+
+  .recruit--input {
+    width: 100%;
+    margin: 0 auto;
+
+    padding-bottom: 90px;
+
+    input[type="text"] {
+      width: 100%;
+      height: 60px;
+      background-color: #F0F0F0;
+      border-radius: 5px 5px 0 0;
+      padding: 0 15px;
+      border: none;
+      outline: none;
+      border-bottom: 2px solid $main-blue;
+      margin-bottom: 10px;
+      font-size: large;
+    }
+  }
+
+  .recruit--next-wrapper {
+
+    .recruit--next {
+      background-color: #0D76FF;
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+
+
+      a {
+        display: inline-block;
+        color: white;
+        font-size: 80px;
+      }
+    }
+    &.disable .recruit--next{
+      background-color: #ddd;
+      cursor: not-allowed;
+    }
+  }
+}
