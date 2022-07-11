@@ -32,7 +32,8 @@ export default function RecruitResult() {
                     :
                     <div>
                         <p>귀하는 <b>불합격</b>입니다.</p>
-                        <p>다음에 좋은 인연으로 뵙길 바라겠습니다.</p>
+                        <p>기회가 있다면 다음에 더 좋은 인연으로</p>
+                        <p>뵙길 바라겠습니다.</p>
                     </div>
                 }
             </div>
